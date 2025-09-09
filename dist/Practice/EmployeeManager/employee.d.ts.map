@@ -1,0 +1,1 @@
+{"version":3,"file":"employee.d.ts","sourceRoot":"","sources":["../../../src/Practice/EmployeeManager/employee.ts"],"names":[],"mappings":"AAAA,MAAM,MAAM,QAAQ,GAAG;IACrB,EAAE,EAAE,MAAM,CAAC;CACZ,CAAC;AAEF,eAAO,MAAM,UAAU,QAAO,MAG7B,CAAC;AAEF,eAAO,MAAM,cAAc,QAAO,QAEjC,CAAC;AAEF,eAAO,MAAM,eAAe,GAAI,OAAO,MAAM,KAAG,KAAK,CAAC,QAAQ,CAE7D,CAAC;AAEF,eAAO,MAAM,oBAAoB,QAAO,IAKvC,CAAC"}
