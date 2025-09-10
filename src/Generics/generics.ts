@@ -34,3 +34,14 @@ console.log(getLength('hello')); // ✅ works
 console.log(getLength([1, 2, 3])); // ✅ works
 console.log(getLength({ length: 10, value: 'test' })); // ✅ works
 // getLength(123);      // ❌ Error: number has no length
+
+// multiple generics
+function pair<K, V>(key: K, value: V): [K, V] {
+  return [key, value];
+}
+
+const p1 = pair<string, number>('age', 30);
+// [ "age", 30 ]
+
+const p2 = pair('id', 101);
+// inferred as [string, number]
